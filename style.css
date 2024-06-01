@@ -10,4 +10,7 @@ body{
   font-family:san-serif;
   font-size:18px;
   line-height:26px;
+  background-image:url("mainPPSSPP.jpg");
+  background-size:contain;
+  color:yellow;
 }
