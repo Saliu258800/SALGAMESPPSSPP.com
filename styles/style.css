@@ -1,0 +1,50 @@
+main img {
+  height: 16rem;
+  width: 20%;
+}
+
+#li-arrange {
+   padding: 0;
+   margin: 0;
+}
+
+.li-combine {
+  display: flex;
+  padding: 0;
+}
+
+.li-combine li {
+  padding:  2rem;
+}
+
+.li-combine img {
+   width: 100%;
+}
+
+
+li {
+  list-style: none;
+  margin: 0 1rem 2.5rem 0;
+}
+
+strong {
+  color: red;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+       font-size: 14px;
+    }
+    
+    #li-arrange {
+       text-align: center;
+       padding: 1rem;
+    }
+    .li-combine {
+       display: block;    
+    }
+    
+    .li-combine li {
+       padding: 0;
+    }
+}

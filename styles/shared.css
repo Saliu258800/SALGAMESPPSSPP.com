@@ -1,0 +1,85 @@
+@font-face {
+  font-family: myfont;
+  src: url(../others/FiraSans-Regular.otf);
+}
+
+@font-face {
+  font-family: custom;
+  src: url(../others/Jacquard24-Regular.ttf);
+}
+
+html {
+  font-size: 16px;
+}
+
+
+body{
+  font-size: 1rem;
+  line-height: 1.9rem;
+  background: lightgray;
+  font-family: myfont, sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  color: red;
+}
+
+.sal {
+  margin-top: 0.5rem;
+  width: 6rem;
+  border-radius: 0.8rem;
+}
+
+.details {
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  margin: auto 0;
+}
+
+.details:hover {
+   color: red;
+   background-color: darkblue;
+}
+
+h1 {
+  font-family: custom, sans-serif;
+  font-size: 40px;
+  margin-top: 0.5rem;
+}
+
+footer {
+  background: linear-gradient(75deg, orange, lightgray);
+  padding: 0 0 3rem 0;
+}
+
+#my-email {
+  text-align: center;
+  padding: 1.5rem 0 0 0;
+}
+
+#my-email a{
+  text-decoration: none;  
+  color: red;
+}
+
+#my-email a:hover {
+  color: darkblue;
+}
+
+#top {
+  text-align: right;
+}
+
+#top a {
+  text-decoration: none;
+  color: red;
+}
+
+#top a:hover {
+  color: darkblue;
+}
